@@ -23,7 +23,7 @@ fun launchCoroutines() {
 }
 
 /**
- * uses significantly more memory
+ * uses more memory, significantly slower
  */
 fun launchThreads() {
     val time = measureTimeMillis {
