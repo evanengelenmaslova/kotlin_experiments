@@ -37,6 +37,8 @@ fun launchThreads() {
     print("thread time $time")
 }
 
+//fun main() = launchThreads()
+
 fun main() = runBlocking { // this: CoroutineScope
     launchCoroutines()
 }
